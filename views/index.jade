@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.main 
+    h1= title
+    hr
+    h4 Continuous deployment on AWS EC2 ubuntu instance using Github and jenkins integration, github Webhook, jenkins github plugin, Docker container
+    hr
+    p Welcome to #{title}
+    p.little Register yourself for our monthly newsletter 
+    input(type='email', value='myname@gmail')#register
+
+
+    p Check our user list
+    a(href='/users') users list

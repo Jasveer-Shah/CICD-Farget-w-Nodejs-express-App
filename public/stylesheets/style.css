@@ -1,8 +1,50 @@
 body {
-  padding: 50px;
+  padding: 0px;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(13, 31, 31);
+   color: rgb(248, 246, 241);
+   height: 50vh;
+   width: 60vw;
+}
+
+ hr {
+  width: 100%;
+ }
+input {
+  width: 25%;
+ height: 40px;
+}
+
+p {
+  font-size: 20px;
+
+}
+
+.little {
+  font-size: 15px;
+  color: antiquewhite;
+}
+a {
+  cursor: pointer;
+}
+a:hover {
+  color: greenyellow;
+}
+
+li {
+  padding-bottom: 10px;
 }
